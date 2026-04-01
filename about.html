@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - PayTracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="app-name">PayTracker</h1>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="dashboard.html" class="nav-link">Dashboard</a></li>
+                    <li><a href="about.html" class="nav-link active">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article class="about-container">
+            <section class="about-hero">
+                <h2>About PayTracker</h2>
+                <p class="about-intro">Your trusted partner in financial management and recurring payment tracking.</p>
+            </section>
+
+            <section class="about-mission">
+                <h2>Our Mission</h2>
+                <p>
+                    PayTracker was created to solve a universal problem: losing track of recurring payments. 
+                    We believe everyone deserves a simple, secure way to manage their subscriptions and 
+                    recurring expenses in one centralized location.
+                </p>
+            </section>
+
+            <section class="about-features">
+                <h2>Key Features</h2>
+                <ul class="feature-list">
+                    <li><strong>Bank & Email Integration:</strong> Securely link your bank accounts and email to track every recurring payment automatically.</li>
+                    <li><strong>Real-time Alerts:</strong> Receive notifications before payments are due so you're always prepared.</li>
+                    <li><strong>Detailed Analytics:</strong> Understand your spending patterns with comprehensive reports and insights.</li>
+                    <li><strong>Multi-device Support:</strong> Access your dashboard anytime, anywhere on any device.</li>
+                    <li><strong>Security First:</strong> Your financial data is encrypted and protected with bank-level security.</li>
+                    <li><strong>Easy Management:</strong> Edit, pause, or cancel subscriptions directly from your dashboard.</li>
+                </ul>
+            </section>
+
+            <section class="about-stats">
+                <h2>By The Numbers</h2>
+                <table class="stats-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Metric</th>
+                            <th scope="col">Value</th>
+                            <th scope="col">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Metric">Active Users</td>
+                            <td data-label="Value">50,000+</td>
+                            <td data-label="Description">People trusting PayTracker with their finances</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Metric">Payments Tracked</td>
+                            <td data-label="Value">2.5M+</td>
+                            <td data-label="Description">Recurring transactions monitored monthly</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Metric">Money Saved</td>
+                            <td data-label="Value">$50M+</td>
+                            <td data-label="Description">Users have identified and canceled unnecessary subscriptions</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Metric">Uptime</td>
+                            <td data-label="Value">99.9%</td>
+                            <td data-label="Description">Service availability for our users</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="about-contact">
+                <h2>Contact & Support</h2>
+                <p>
+                    Have questions or need assistance? We're here to help! Reach out to our support team 
+                    at <em>support@paytracker.com</em> or visit our help center for frequently asked questions.
+                </p>
+                <form class="contact-form">
+                    <fieldset>
+                        <legend>Send Us a Message</legend>
+                        
+                        <div class="form-group">
+                            <label for="contact-name">Your Name:</label>
+                            <input type="text" id="contact-name" name="contact-name" 
+                                   placeholder="John Doe" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-email">Email Address:</label>
+                            <input type="email" id="contact-email" name="contact-email" 
+                                   placeholder="john@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-subject">Subject:</label>
+                            <input type="text" id="contact-subject" name="contact-subject" 
+                                   placeholder="What is this about?" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-message">Message:</label>
+                            <textarea id="contact-message" name="contact-message" 
+                                      placeholder="Tell us more..." rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </fieldset>
+                </form>
+            </section>
+
+            <section class="about-image">
+                <figure>
+                    <a href="dashboard.html">
+                        <img src="https://via.placeholder.com/800x400?text=PayTracker+Team" 
+                             alt="PayTracker team collaborating on payment tracking solutions" 
+                             class="team-image">
+                    </a>
+                    <figcaption>Our dedicated team working to improve your financial management experience</figcaption>
+                </figure>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
